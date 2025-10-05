@@ -1,7 +1,7 @@
 import { UserRepositoryInMemory } from './drivens/UserRepository-InMemory';
 import { BcryptPasswordHasher } from './drivens/BcrypPasswordHasher';
 import { UuidV4Generator } from './drivens/UuidV4Generator';
-import { RegisterUseCase } from '@/features/users/application/usecases/RegisterUseCase';
+import { RegisterUseCase } from '@/features/users/app/usecases/RegisterUseCase';
 import { UserServiceAdapter } from './drivers/UserServiceAdapter';
 import { UserController } from './drivers/http/controllers/user.controller';
 

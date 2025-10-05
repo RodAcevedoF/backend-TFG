@@ -1,6 +1,6 @@
 import type { IUserService } from '@/features/users/domain/ports/drivers/IUser.service';
 import type { UserDTO } from '@/features/users/domain/UserDto';
-import { RegisterUseCase } from '@/features/users/application/usecases/RegisterUseCase';
+import { RegisterUseCase } from '@/features/users/app/usecases/RegisterUseCase';
 
 export class UserServiceAdapter implements IUserService {
 	constructor(private readonly registerUseCase: RegisterUseCase) {}

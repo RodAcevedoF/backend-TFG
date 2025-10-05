@@ -1,4 +1,4 @@
-import { UserEmail } from '../email-objects';
+import { UserEmail } from './email-objects';
 
 export class User {
 	public id: string;
